@@ -91,8 +91,6 @@ jobs:
 
 ## 📜 License
 
-## 📜 License
-
 MIT © MarjanRafi  
 Feel free to fork and customize!
 Video link: https://www.linkedin.com/in/mdmarjanmorshedrafi/
