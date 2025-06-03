@@ -1,16 +1,15 @@
 # 🚀 Automated Static Website Deployment to AWS S3 using GitHub Actions  
 
 A complete CI/CD setup for static websites (HTML/CSS/JS) with GitHub Actions and AWS S3.  
-This guide helps you automate deployments every time you push code to the `main` branch.
+This guide helps you automate deployments every time you push code to the `master` branch.
 
 ---
 
 ## 📌 Features
 
 ✅ Zero-cost hosting (S3 free tier eligible)  
-✅ Instant deployments on code push to main branch  
+✅ Instant deployments on code push to master branch  
 ✅ Manual trigger support via GitHub UI  
-✅ Cache optimization for faster page loads  
 ✅ Secure AWS access using IAM roles  
 
 ---
@@ -53,7 +52,7 @@ name: Deploy to S3
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   workflow_dispatch:
 
 jobs:
